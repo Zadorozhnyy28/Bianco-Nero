@@ -1,4 +1,36 @@
+.rectangle {
 
+    
+    position: absolute;
+    left: 341px;
+    top:71px;
+    position: fixed;
+    
+}
+
+.round {
+    position: absolute;
+    left: 275px;
+    top: 60px;
+    position: fixed;
+    
+    
+    
+    }
+
+    .header_window {
+        background-color: #98161b;
+        
+        }
+
+        .content {
+
+            background-color: white;
+            position: relative;
+            z-index: 1;
+            
+         
+         }
 
 header  {
     
@@ -16,15 +48,7 @@ section{
     width: 711px; margin: auto; margin-top: 150px; position: relative; top: 60px;
 }
 
-.rectangle {
 
-    
-    position: absolute;
-    left: 341px;
-    top:71px;
-    position: fixed;
-    
-}
 
 .june{
 color:black;
@@ -34,10 +58,7 @@ color:black;
     
 }
 
-.header_window {
-    background-color: #98161b;
-    
-    }
+
     
     .header_window p {
         font-family: 'Arvo', serif;
@@ -50,14 +71,7 @@ color:black;
     }
     
 
-.content {
 
-   background-color: white;
-   position: relative;
-   z-index: 1;
-   
-
-}
 
 .rec {
     
@@ -75,15 +89,7 @@ max-width: 563px;
 margin: auto;
 }
 
-.round {
-position: absolute;
-left: 275px;
-top: 60px;
-position: fixed;
 
-
-
-}
 
 
 .half_footer {
@@ -123,4 +129,39 @@ footer {
 .other_text {
 
     color: #98161b; font-family: 'Arvo', serif; font-weight: 700; font-size: 12px; padding-bottom: 130px; padding-top: 20px;
+}
+
+.fixed {
+    position: fixed; right: 0; top: 260px;
+}
+
+.fixed a{
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    line-height: 50px;
+}
+.fixed a:before{
+    content: "\f39e";
+    font-family: Font Awesome\ 5 Brands;
+    display: inline-block;
+}
+.fixed a:last-of-type{
+    background-color: darkred;
+}
+.fixed a:last-of-type:before{
+    content: "\f099";
+}
+
+.twitter {
+    display: block; width: 50px; height: 50px; background-color: #98161b;
+}
+
+.facebook {
+
+    display: block; width: 50px; height: 50px; background-color:#850409;
 }
