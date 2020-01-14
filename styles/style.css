@@ -1,0 +1,126 @@
+
+
+header  {
+    
+    border-top:40px solid #af2024;
+     height: 2px;
+     position: fixed;
+     width: 100%;
+     top: 0;
+     
+    
+}
+
+section{
+
+    width: 711px; margin: auto; margin-top: 150px; position: relative; top: 60px;
+}
+
+.rectangle {
+
+    
+    position: absolute;
+    left: 341px;
+    top:71px;
+    position: fixed;
+    
+}
+
+.june{
+color:black;
+    position: absolute;
+    top: 704px;
+    right: 800px;
+    
+}
+
+.header_window {
+    background-color: #98161b;
+    
+    }
+    
+    .header_window p {
+        font-family: 'Arvo', serif;
+        font-weight: 700;
+        color: white;
+        padding-top:27px;
+        padding-bottom: 27px;
+        max-width: 673px;
+        margin: auto;   
+    }
+    
+
+.content {
+
+   background-color: white;
+   position: relative;
+   z-index: 1;
+   
+
+}
+
+.rec {
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 67px;
+    position: relative;
+    z-index: 1;
+
+}
+
+.content p {
+max-width: 563px;
+margin: auto;
+}
+
+.round {
+position: absolute;
+left: 275px;
+top: 60px;
+position: fixed;
+
+
+
+}
+
+
+.half_footer {
+    border-top:33px solid #3f0002;
+
+   
+    
+}
+footer {
+    border-top:454px solid black;
+   
+}
+
+.border {
+
+    width: 28px;
+    border-top:2px dotted #98161b;  max-width: 563px; margin: auto; position: absolute; left: 73px;
+}
+
+.main_text {
+
+    color: #7d7d7d;
+ max-width: 563px;
+  margin: auto;
+   font-family: 'Arvo', serif;
+   font-weight: 700; 
+   font-size: 13px;
+    padding-bottom: 20px; 
+     padding-top: 31px;
+}
+
+.letter{
+
+    color: #98161b
+}
+
+.other_text {
+
+    color: #98161b; font-family: 'Arvo', serif; font-weight: 700; font-size: 12px; padding-bottom: 130px; padding-top: 20px;
+}
